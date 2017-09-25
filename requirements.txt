@@ -1,0 +1,6 @@
+django
+django-oauth-toolkit
+django-cors-headers
+djangorestframework
+psycopg2
+gunicorn
