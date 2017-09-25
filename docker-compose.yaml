@@ -1,0 +1,14 @@
+web:
+  image: reconstruye_mx:latest
+  env_file: .env
+  container_name: reconstruye_mx
+  restart: always
+  volumes:
+    - .:/srv/api
+  ports:
+    - 8000:8000
+  environment:
+    - PGNAME
+    - PGUSER
+    - PGPASS
+    - PGHOST
